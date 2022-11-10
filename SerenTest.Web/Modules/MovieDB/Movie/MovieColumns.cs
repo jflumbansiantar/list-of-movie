@@ -20,6 +20,8 @@ namespace SerenTest.MovieDB.Columns
         public string Storyline { get; set; }
         public int Year { get; set; }
         public DateTime ReleaseDate { get; set; }
+        [Width(100), QuickFilter]
+        public String GenreName { get; set; }
         [EditLink, DisplayName("Runtime in Minutes"), AlignRight]
         public int Runtime { get; set; }
         public MovieKind Kind { get; set; }

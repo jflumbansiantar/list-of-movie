@@ -70,6 +70,21 @@ namespace SerenTest.MovieDB
             set => fields.Kind[this] = (Int32?)value;
         }
 
+        [DisplayName("Genre"), ForeignKey("[mov].Genre", "GenreId"), LeftJoin("g")]
+        [LookupEditor(typeof(GenreRow), InplaceAdd = true)]
+        public Int32? GenreId
+        {
+            get => fields.GenreId[this];
+            set => fields.GenreId[this] = value;
+        }
+
+        [DisplayName("Genre"), Expression("g.Name")]
+        public String GenreName
+        {
+            get => fields.GenreName[this];
+            set => fields.GenreName[this] = value;
+        }
+
         public MovieRow()
             : base()
         {
@@ -90,6 +105,8 @@ namespace SerenTest.MovieDB
             public DateTimeField ReleaseDate;
             public Int32Field Runtime;
             public Int32Field Kind;
+            public Int32Field GenreId;
+            public StringField GenreName;
         }
     }
 }

@@ -13,8 +13,14 @@
       "Key": "Default",
       "Tables": [
         {
+          "Tablename": "mov.Genre",
+          "Identifier": "MovieGenre",
+          "Module": "MovieGenres",
+          "PermissionKey": "Administration:General"
+        },
+        {
           "Tablename": "mov.Movie",
-          "Identifier": "Movie",
+          "Identifier": "MovieGenres",
           "Module": "MovieDB",
           "PermissionKey": "Administration:General"
         }

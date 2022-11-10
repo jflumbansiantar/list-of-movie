@@ -1,15 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Migrations",
+    "\\Migrations\\DefaultDB",
     "\\Modules",
-    "\\Modules\\Administration",
-    "\\Modules\\Administration\\Language",
-    "\\Modules\\Administration\\Role",
-    "\\Modules\\Administration\\RolePermission",
-    "\\Modules\\Administration\\Translation",
-    "\\Modules\\Administration\\User",
-    "\\Modules\\Administration\\UserPermission",
-    "\\Modules\\Administration\\UserRole"
+    "\\Modules\\MovieDB"
   ],
+  "SelectedNode": "\\Migrations\\DefaultDB",
   "PreviewInSolutionExplorer": false
 }

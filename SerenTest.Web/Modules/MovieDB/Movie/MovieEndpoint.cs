@@ -44,14 +44,14 @@ namespace SerenTest.MovieDB.Endpoints
         }
 
         [HttpPost, AuthorizeList(typeof(MyRow))]
-        public ListResponse<MyRow> List(IDbConnection connection, ListRequest request,
+        public ListResponse<MyRow> List(IDbConnection connection, MovieListRequest request,
             [FromServices] IMovieListHandler handler)
         {
             return handler.List(connection, request);
         }
 
         [AuthorizeList(typeof(MyRow))]
-        public FileContentResult ListExcel(IDbConnection connection, ListRequest request,
+        public FileContentResult ListExcel(IDbConnection connection, MovieListRequest request,
             [FromServices] IMovieListHandler handler,
             [FromServices] IExcelExporter exporter)
         {
