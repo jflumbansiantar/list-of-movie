@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Modules",
+    "\\Modules\\Administration",
+    "\\Modules\\Administration\\Language",
+    "\\Modules\\Administration\\Role",
+    "\\Modules\\Administration\\RolePermission",
+    "\\Modules\\Administration\\Translation",
+    "\\Modules\\Administration\\User",
+    "\\Modules\\Administration\\UserPermission",
+    "\\Modules\\Administration\\UserRole"
+  ],
+  "PreviewInSolutionExplorer": false
+}
