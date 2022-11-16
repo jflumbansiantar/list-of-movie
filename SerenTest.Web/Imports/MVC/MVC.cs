@@ -83,9 +83,19 @@ namespace MVC
                 public const string MovieIndex = "~/Modules/MovieDB/Movie/MovieIndex.cshtml";
             }
 
-            public static class MovieGenres
+            public static class MovieCast
             {
-                public const string MovieGenresIndex = "~/Modules/MovieDB/MovieGenres/MovieGenresIndex.cshtml";
+                public const string MovieCastIndex = "~/Modules/MovieDB/MovieCast/MovieCastIndex.cshtml";
+            }
+
+            public static class MovieGenre
+            {
+                public const string MovieGenreIndex = "~/Modules/MovieDB/MovieGenre/MovieGenreIndex.cshtml";
+            }
+
+            public static class Person
+            {
+                public const string PersonIndex = "~/Modules/MovieDB/Person/PersonIndex.cshtml";
             }
         }
 

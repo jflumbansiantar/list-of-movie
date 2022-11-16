@@ -19,6 +19,7 @@
     <Import Project="$(NuGetPackageRoot)serenity.demo.northwind\6.0.3\buildTransitive\Serenity.Demo.Northwind.props" Condition="Exists('$(NuGetPackageRoot)serenity.demo.northwind\6.0.3\buildTransitive\Serenity.Demo.Northwind.props')" />
     <Import Project="$(NuGetPackageRoot)serenity.demo.basicsamples\6.0.3\buildTransitive\Serenity.Demo.BasicSamples.props" Condition="Exists('$(NuGetPackageRoot)serenity.demo.basicsamples\6.0.3\buildTransitive\Serenity.Demo.BasicSamples.props')" />
     <Import Project="$(NuGetPackageRoot)serenity.assets\6.0.2\buildTransitive\Serenity.Assets.props" Condition="Exists('$(NuGetPackageRoot)serenity.assets\6.0.2\buildTransitive\Serenity.Assets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.typescript.msbuild\4.6.2\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microsoft.typescript.msbuild\4.6.2\build\Microsoft.TypeScript.MSBuild.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

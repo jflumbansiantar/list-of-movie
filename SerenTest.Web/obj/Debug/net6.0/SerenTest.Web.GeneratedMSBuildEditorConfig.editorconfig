@@ -71,12 +71,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXEdlbnJlXEdlbnJlSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/MovieDB/MovieGenres/MovieGenresIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXE1vdmllR2VucmVzXE1vdmllR2VucmVzSW5kZXguY3NodG1s
+[C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/MovieDB/MovieCast/MovieCastIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXE1vdmllQ2FzdFxNb3ZpZUNhc3RJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/MovieDB/MovieGenre/MovieGenreIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXE1vdmllR2VucmVcTW92aWVHZW5yZUluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/MovieDB/Movie/MovieIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXE1vdmllXE1vdmllSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/MovieDB/Person/PersonIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kdWxlc1xNb3ZpZURCXFBlcnNvblxQZXJzb25JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Julia/source/repos/MySerene/SerenTest.Web/Modules/_ViewImports.cshtml]

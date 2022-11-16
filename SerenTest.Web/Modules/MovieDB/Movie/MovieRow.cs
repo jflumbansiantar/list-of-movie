@@ -3,6 +3,7 @@ using Serenity.ComponentModel;
 using Serenity.Data;
 using Serenity.Data.Mapping;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
 
@@ -84,6 +85,14 @@ namespace SerenTest.MovieDB
             get => fields.GenreName[this];
             set => fields.GenreName[this] = value;
         }
+        //[DisplayName("Genres")]
+        //[LookupEditor(typeof(GenreRow), Multiple = true), NotMapped]
+        //[LinkingSetRelation(typeof(MovieGenresRow), "MovieId", "GenreId")]
+        //public List<Int32> GenreList
+        //{
+        //    get => fields.GenreList[this];
+        //    set => fields.GenreList[this] = value;
+        //}
 
         public MovieRow()
             : base()
@@ -105,6 +114,7 @@ namespace SerenTest.MovieDB
             public DateTimeField ReleaseDate;
             public Int32Field Runtime;
             public Int32Field Kind;
+            //public ListField<Int32> GenreList;
             public Int32Field GenreId;
             public StringField GenreName;
         }

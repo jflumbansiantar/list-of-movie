@@ -4,8 +4,9 @@
     "\\Migrations",
     "\\Migrations\\DefaultDB",
     "\\Modules",
-    "\\Modules\\MovieDB"
+    "\\Modules\\MovieDB",
+    "\\Modules\\MovieDB\\Movie"
   ],
-  "SelectedNode": "\\Migrations\\DefaultDB",
+  "SelectedNode": "\\sergen.json",
   "PreviewInSolutionExplorer": false
 }

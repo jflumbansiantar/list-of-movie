@@ -23,6 +23,24 @@
           "Identifier": "MovieGenres",
           "Module": "MovieDB",
           "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.MovieCast",
+          "Identifier": "MovieCast",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.MovieGenre",
+          "Identifier": "MovieGenre",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "mov.Person",
+          "Identifier": "Person",
+          "Module": "MovieDB",
+          "PermissionKey": "Administration:General"
         }
       ]
     }
